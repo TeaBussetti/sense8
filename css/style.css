@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-item{
+    margin-left: 2rem;
+    text-align: end;
+    padding-right: 15px
+}
+.navbar{
+    color: black;
+    opacity: 90%;
+    box-shadow: 5;
+}
+a{
+    color: black;
+}
+h2{
+    color: white;
+}
+h4{
+    color: rgb(163, 163, 163);
+    font-weight: 300;
+    transition: all 500ms ease-out;
+    margin-top: 100px;
+}
+p{
+    color: white;
+}
+.margin-bottom {
+    margin-bottom: 3rem;
+}
+.mt-10{
+    margin-top: 6rem;
+}
+.text-sense {
+    font-size: 20rem;
+    color: rgb(227, 226, 228);
+}
+.card-title {
+    color: white;
+    opacity: 0.85;
+}
+.card-text{
+    color: white;
+    opacity: 0.5;
+    transition: opacity .3s;
+}
+.card-text:hover{
+    color: white;
+    opacity: 1;
+}
+.footer{
+    border-top: 0.12rem solid;
+    height: 6rem;
+    box-shadow: 5;
+}
+.icon{
+    opacity: 0.5;
+    transition: opacity .3s;
+}
+.icon:hover{
+    opacity: 0.8;
+}
+
+.navbar-toggler{
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    transition: box-shadow .30s ease-in-out;
+    opacity: 0.8;
+    transition: opacity .3s;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(0, 0, 0, 0.8);
+    border-color: transparent;
+}
+.navbar-toggler:hover{
+    opacity: 1;
+}
+
+.img{
+    opacity: 1;
+    transition: opacity .3s
+}
+.img:hover{
+    opacity: 0.3;
+}
+
+.img-text-container{
+    position: relative;
+    overflow: hidden;
+}
+.img-text-container img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.text-container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.img-text-container:hover > .text-container {
+    opacity: 1;
+    visibility: visible;
+}
+.img-text-container:hover > .text-container h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.img-text-container .text-container h3{
+    color: rgb(163, 163, 163);
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.img-text-container .text-container p{
+    color: rgb(163, 163, 163);
+    font-size: 14px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+}
+.text-container-fixed{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    text-align: center;
+    margin-top: 50px;
+}
+.box{
+    transition: all 1s;
+}
+.box-scale:hover{
+    transform: scale(1.1,1.1);
+}
+.obras{
+    opacity: 0.3;
+    transition: opacity .1s
+}
+.obras:hover{
+    opacity: 1;
+}
